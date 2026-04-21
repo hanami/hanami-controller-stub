@@ -2,6 +2,7 @@ name:
   gem: hanami-controller
   constant: Hanami::Controller
 github_org: hanami
+github_repo: hanami-controller-stub
 gemspec:
   authors: ["Hanakai team"]
   email: ["info@hanakai.org"]

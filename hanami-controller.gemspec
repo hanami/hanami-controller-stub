@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.version       = Hanami::Controller::VERSION.dup
 
-  spec.summary       = "A domain specific language for composable business transaction workflows."
+  spec.summary       = "Stub gem for transition from hanami-controller to hanami-action"
   spec.description   = spec.summary
   spec.homepage      = "https://hanamirb.org"
   spec.files         = Dir["CHANGELOG.md", "LICENSE", "README.md", "hanami-controller.gemspec", "lib/**/*"]
@@ -28,9 +28,11 @@ Gem::Specification.new do |spec|
   spec.metadata["bug_tracker_uri"]   = "https://github.com/hanami/hanami-controller/issues"
   spec.metadata["funding_uri"]       = "https://github.com/sponsors/hanami"
 
-  spec.required_ruby_version = ">= 3.1.0"
+  spec.required_ruby_version = ">= 3.2"
 
   spec.add_runtime_dependency "hanami-action", "~> 3.0"
-  spec.add_runtime_dependency "zeitwerk", "~> 2.6"
+  spec.add_development_dependency "bundler"
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "yard"
 end
+

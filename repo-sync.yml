@@ -1,0 +1,15 @@
+name:
+  gem: hanami-controller
+  constant: Hanami::Controller
+github_org: hanami
+gemspec:
+  authors: ["Hanakai team"]
+  email: ["info@hanakai.org"]
+  summary: "Stub gem for transition from hanami-controller to hanami-action"
+  homepage: "https://hanamirb.org"
+  development_dependencies:
+    - bundler
+    - rspec
+    - yard
+  runtime_dependencies:
+    - [hanami-action, "~> 3.0"]
